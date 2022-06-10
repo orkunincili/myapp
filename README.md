@@ -97,7 +97,8 @@ Multipass is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, 
 
 
 
-1. Multipass (https://multipass.run/)
+1. [Multipass](https://multipass.run/)
+
 2. Install Multipass on Linux
    ```
     sudo snap install multipass
@@ -134,8 +135,10 @@ I followed steps on this [website](https://computingforgeeks.com/deploy-kubernet
 
 1. I followed Jenkins [documentation](https://www.jenkins.io/doc/book/installing/linux/) to installation of Jenkins
 <p></p><br><img src="images/s3jenkins.png" >
+
 2. I followed Docker [documentation](https://docs.docker.com/engine/install/ubuntu/) to installation of Docker
   <p></p><br><img src="images/s3docker.png" >
+
 3. I followed Docker [documentation](https://docs.docker.com/registry/) to installation of Docker Registry
   <p></p><br><img src="images/s3dockerreg.png">
  
