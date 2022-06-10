@@ -33,26 +33,24 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#tools">Tools</a></li>
-        <li><a href="why">Why I used Multipass instead VirtualBox?</a></li>
+        <li><a href="#why-i-used-multipass-instead-virtualbox">Why I used Multipass instead VirtualBox?</a></li>
       </ul>
     </li>
     <li>
-      <a href="#multipass">Installation Multipass and Launch Servers</a>
+      <a href="#installation-multipass-and-launch-servers">Installation Multipass and Launch Servers</a>
     </li>
-    <li><a href="#server1a2">Installation Kubernetes on server1 and server2</a></li>
-    <li><a href="#server3">Installation Jenkins, Docker and Docker Registry on server3</a></li>
-     
+    <li><a href="#installation-kubernetes-on-server1-and-server2">Installation Kubernetes on server1 and server2</a></li>
+    <li><a href="installation-jenkins-docker-and-docker-registry-on-server3">Installation Jenkins, Docker and Docker Registry on server3</a></li>
     <li><a href="#contact">Contact</a></li>
     
   </ol>
-</details>
+
 
 
 
@@ -114,8 +112,9 @@ Multipass is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, 
 4. Connect to instances
    ```
     multipass shell [instances_name]
-   ```
- <br><img src="images/servers.png" alt="servers">
+	```
+<p></p>		
+<img src="images/servers.png" alt="servers">
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -124,6 +123,7 @@ Multipass is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, 
 ## Installation Kubernetes on server1 and server2
 
 I followed steps on this [website](https://computingforgeeks.com/deploy-kubernetes-cluster-on-ubuntu-with-kubeadm/) to install Kubernetes and create cluster on server1 and server2
+<p></p>
 <br><img src="images/kubectl.png" alt="kubectl">
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -133,11 +133,11 @@ I followed steps on this [website](https://computingforgeeks.com/deploy-kubernet
 ## Installation Jenkins, Docker and Docker Registry on server3
 
 1. I followed Jenkins [documentation](https://www.jenkins.io/doc/book/installing/linux/) to installation of Jenkins
-<br><img src="images/s3jenkins.png" >
+<p></p><br><img src="images/s3jenkins.png" >
 2. I followed Docker [documentation](https://docs.docker.com/engine/install/ubuntu/) to installation of Docker
-  <br><img src="images/s3docker.png" >
+  <p></p><br><img src="images/s3docker.png" >
 3. I followed Docker [documentation](https://docs.docker.com/registry/) to installation of Docker Registry
-  <br><img src="images/s3dockerreg.png">
+  <p></p><br><img src="images/s3dockerreg.png">
  
    
 
