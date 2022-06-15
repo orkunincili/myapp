@@ -27,7 +27,7 @@ pipeline {
                     steps{
                         sh """
     		    
-                        docker image tag myappimage 10.48.6.174:5000/myappimage
+                        docker image tag myappimage 10.48.6.179:5000/myappimage
     		            
                         """
                     }
@@ -36,7 +36,7 @@ pipeline {
                 stage("Push Docker Image"){
                     steps{
                         sh """
-                        docker push 10.48.6.174:5000/myappimage
+                        docker push 10.48.6.179:5000/myappimage
                         """
                     }
                 }
