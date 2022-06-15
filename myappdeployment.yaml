@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: firstimage
-        image: 10.48.6.174:5000/myappimage
+        image: 10.48.6.179:5000/myappimage
         ports:
         - containerPort: 5000
